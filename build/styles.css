@@ -214,7 +214,7 @@ section {
   border: 1px solid rgba(255, 255, 255, 0.4039215686);
   background-color: rgba(0, 0, 2, 0.3098039216);
   backdrop-filter: blur(50px);
-  height: 73vh;
+  height: 405px;
   width: 215px;
   animation: scrolroll linear;
   animation-timeline: view();
@@ -262,7 +262,7 @@ span {
   background-color: rgba(0, 0, 2, 0.3098039216);
   background-image: linear-gradient(to top, rgba(0, 0, 2, 0.3098039216), rgba(59, 11, 11, 0.3960784314));
   padding: 0;
-  height: 326vh;
+  height: 339vh;
   border-radius: 10px;
   backdrop-filter: blur(40px);
 }
