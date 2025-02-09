@@ -214,7 +214,7 @@ section {
   border: 1px solid rgba(255, 255, 255, 0.4039215686);
   background-color: rgba(0, 0, 2, 0.3098039216);
   backdrop-filter: blur(50px);
-  height: 73vh;
+  height: 380px;
   width: 215px;
   animation: scrolroll linear;
   animation-timeline: view();
@@ -252,7 +252,7 @@ span {
   text-decoration: none;
   width: 100%;
   position: absolute;
-  top: 360px;
+  top: 335px;
 }
 .product-button:hover {
   background-color: #922b02;
@@ -280,7 +280,7 @@ span {
 }
 
 .rodape h1 {
-  font-size: 40px;
+  font-size: 20px;
   margin-top: 10px;
   padding-left: 10px;
   padding-right: 10px;
@@ -303,10 +303,10 @@ span {
     max-width: 80%;
   }
   .galeria {
-    height: 500vh;
+    height: 2808px;
   }
   .product-button {
-    top: 240px;
+    top: 336px;
   }
   .products {
     grid-template-columns: repeat(2, 48.5%);
@@ -318,26 +318,38 @@ span {
     display: block;
   }
   .product-button {
-    top: 242px;
+    top: 335px;
   }
   .galeria {
-    height: 978vh;
+    height: 5000px;
   }
   .product-item {
     margin-bottom: 32px;
   }
+  .rodape {
+    height: 220px;
+  }
+  .rodape h1 {
+    font-size: 20px;
+  }
   h1 {
     flex-direction: column;
-    height: 50vh;
   }
   .top-content {
-    padding-bottom: 40px;
+    padding-bottom: 58px;
   }
   header .container {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 10px;
+    margin: 0;
+  }
+  .programas {
+    height: 148px;
+  }
+  .programas h1 {
+    flex-direction: column;
   }
 }
 
