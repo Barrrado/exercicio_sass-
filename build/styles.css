@@ -343,7 +343,15 @@ span {
     justify-content: space-between;
     align-items: center;
     padding: 10px;
+    margin: 0;
   }
+    .programas{
+          height: 148px;
+    }
+    .programas h1{
+    flex-direction: column;
+    }
+    
 }
 
 /*# sourceMappingURL=styles.css.map */
