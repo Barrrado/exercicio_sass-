@@ -1,0 +1,338 @@
+.rubik {
+  font-family: "Rubik", serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Roboto, sans-serif;
+}
+
+h1, h4, p, a, h2 {
+  color: #ffffff;
+}
+
+h1 {
+  font-size: 2.5rem;
+}
+
+body {
+  background-color: #000000;
+  background-image: linear-gradient(to right, #000000, rgba(53, 5, 5, 0.4784313725));
+}
+
+h2 {
+  text-align: center;
+}
+
+.galeria, .top-content {
+  max-width: 1024px;
+  margin: auto;
+}
+
+@keyframes tracking-in-expand-top {
+  0% {
+    letter-spacing: -0.5em;
+    -webkit-transform: translateZ(100px) translateY(100px);
+    transform: translateZ(100px) translateY(-100px);
+    opacity: 0;
+  }
+  40% {
+    opacity: 0.6;
+  }
+  100% {
+    -webkit-transform: translateZ(0) translateY(0);
+    transform: translateZ(0) translateY(0);
+    opacity: 1;
+  }
+}
+@keyframes scale-in-ver-bottom {
+  0% {
+    transform: scaleY(0);
+    transform-origin: 0% 100%;
+    opacity: 1;
+  }
+  100% {
+    transform: scaleY(1);
+    transform-origin: 0% 100%;
+    opacity: 1;
+  }
+}
+@keyframes fade-in-bottom {
+  0% {
+    transform: translateY(100px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+@keyframes fade-in-left {
+  0% {
+    transform: translateX(-50px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+@keyframes scrolroll {
+  from {
+    opacity: 0;
+    scale: 0.5;
+  }
+  to {
+    opacity: 1;
+    scale: 1;
+  }
+}
+@keyframes bounce-in-bottom {
+  0% {
+    transform: translateY(500px);
+    animation-timing-function: ease-in;
+    opacity: 0;
+  }
+  38% {
+    transform: translateY(0);
+    animation-timing-function: ease-out;
+    opacity: 1;
+  }
+  55% {
+    transform: translateY(65px);
+    animation-timing-function: ease-in;
+  }
+  72% {
+    transform: translateY(0);
+    animation-timing-function: ease-out;
+  }
+  81% {
+    transform: translateY(28px);
+    animation-timing-function: ease-in;
+  }
+  90% {
+    transform: translateY(0);
+    animation-timing-function: ease-out;
+  }
+  95% {
+    transform: translateY(8px);
+    animation-timing-function: ease-in;
+  }
+  100% {
+    transform: translateY(0);
+    animation-timing-function: ease-out;
+  }
+}
+.programas h1 {
+  display: flex;
+  animation: tracking-in-expand-top 1s;
+  align-items: center;
+  color: #ddcf7f;
+}
+
+li {
+  list-style: none;
+}
+
+.container {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.top-content {
+  padding: 0px 0;
+}
+
+.programas {
+  display: flex;
+  max-width: 1024px;
+  width: 100%;
+  height: 20vh;
+  margin: 0 auto;
+  justify-content: center;
+  position: relative;
+  z-index: 1;
+}
+
+header {
+  background-color: rgba(0, 0, 2, 0.3098039216);
+  background-image: linear-gradient(to right, rgba(0, 0, 2, 0.3098039216), rgba(59, 11, 11, 0.3960784314));
+  position: sticky;
+  top: 0;
+  left: 0;
+  z-index: 11;
+  backdrop-filter: blur(38px);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.4039215686);
+}
+
+header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 123px;
+}
+
+.branding img {
+  width: 100px;
+  animation: fade-in-left 1s;
+}
+
+.menu {
+  display: flex;
+}
+
+.menu li {
+  font-weight: bold;
+  margin-left: 24px;
+}
+
+.menu li a {
+  text-decoration: none;
+}
+
+section {
+  padding: 56px 0;
+}
+
+.products {
+  margin-top: 40px;
+  display: grid;
+  grid-template-columns: repeat(3, 32.66%);
+  row-gap: 2%;
+  column-gap: 1%;
+  width: 100%;
+  justify-items: center;
+}
+
+.product-item {
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.4039215686);
+  background-color: rgba(0, 0, 2, 0.3098039216);
+  backdrop-filter: blur(50px);
+  height: 73vh;
+  width: 215px;
+  animation: scrolroll linear;
+  animation-timeline: view();
+  animation-range: 0 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.product-item p {
+  text-align: center;
+}
+
+.product-item img {
+  width: 100%;
+  border-radius: 10px;
+  overflow: auto;
+  height: 100%;
+}
+
+span {
+  color: #ffffff;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.product-button {
+  display: block;
+  background-color: #680000;
+  color: #ffffff;
+  text-align: center;
+  padding: 8px 0;
+  border-radius: 8px;
+  margin-top: 8px;
+  text-decoration: none;
+  width: 100%;
+  position: absolute;
+  top: 346px;
+}
+.product-button:hover {
+  background-color: #922b02;
+}
+
+.galeria {
+  background-color: rgba(0, 0, 2, 0.3098039216);
+  background-image: linear-gradient(to top, rgba(0, 0, 2, 0.3098039216), rgba(59, 11, 11, 0.3960784314));
+  padding: 0;
+  height: 326vh;
+  border-radius: 10px;
+  backdrop-filter: blur(40px);
+}
+
+.rodape {
+  justify-content: center;
+  display: flex;
+  padding-top: 16px;
+  flex-direction: column;
+  align-items: center;
+  animation: fade-in-bottom 1s;
+  animation-timeline: view();
+  animation-range: cover 0% cover 30%;
+  background-image: url(/ims/uma-pintura-de-uma-pintura-abstrata-colorida-com-a-palavra-amor-nela_800563-6535.avif);
+}
+
+.rodape h1 {
+  font-size: 40px;
+  margin-top: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  color: black;
+  font-family: "Rubik", serif;
+  background-color: rgba(240, 248, 255, 0.356);
+  backdrop-filter: blur(20px);
+  border-radius: 20px;
+}
+
+.rodape h1::after {
+  inset: 0 0 0 0;
+  content: attr(data-content);
+  -webkit-text-stroke: 1px rgb(255, 255, 255);
+  color: transparent;
+}
+
+@media screen and (max-width: 1023px) {
+  .container {
+    max-width: 80%;
+  }
+  .galeria {
+    height: 500vh;
+  }
+  .products {
+    grid-template-columns: repeat(2, 48.5%);
+    column-gap: 3%;
+  }
+}
+@media screen and (max-width: 767px) {
+  .products {
+    display: block;
+  }
+  .galeria {
+    height: 978vh;
+  }
+  .product-item {
+    margin-bottom: 32px;
+  }
+  h1 {
+    flex-direction: column;
+    height: 50vh;
+  }
+  .top-content {
+    padding-bottom: 40px;
+  }
+  header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+  }
+}
+
+/*# sourceMappingURL=styles.css.map */

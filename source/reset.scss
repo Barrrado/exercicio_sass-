@@ -1,0 +1,34 @@
+@use 'cores';
+
+
+.rubik {
+    font-family: "Rubik", serif;
+    font-optical-sizing: auto;
+    font-weight:weight;
+    font-style:normal;
+  }
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Roboto, sans-serif;
+}
+h1,h4,p,a,h2{
+    color:cores.$colorfont;
+}
+h1{
+    font-size: 2.5rem;
+}
+body{
+    background-color: cores.$corpadrao;
+    background-image: linear-gradient(to right, cores.$corpadrao, cores.$corgradiente);
+}
+h2{
+    text-align: center;
+}
+.galeria, .top-content{
+    max-width: 1024px;
+    margin:auto;
+    }
