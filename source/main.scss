@@ -85,7 +85,7 @@ section {
     border: 1px solid cores.$bordercolor;
     background-color: cores.$corheader;
     backdrop-filter: blur(50px);
-    height: 73vh;
+    height: 405px;
     width: 215px;
     animation: scrolroll linear ;
     animation-timeline: view();
@@ -131,7 +131,7 @@ span{
     background-color: cores.$corheader;
     background-image:linear-gradient(to top, cores.$corheader, cores.$gradiente);
     padding: 0;
-    height: 326vh;
+    height: 339vh;
     border-radius: 10px;
     backdrop-filter: blur(40px);
 }
