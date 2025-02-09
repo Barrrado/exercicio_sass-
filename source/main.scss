@@ -121,7 +121,7 @@ span{
     text-decoration: none;
     width: 100%;
     position: absolute;
-    top: 346px;
+    top: 360px;
 
     &:hover {
         background-color: cores.$corbtn;
@@ -175,6 +175,9 @@ span{
     .galeria{
         height: 500vh;
     }
+    .product-button{
+        top: 240px;
+    }
 
     .products {
         grid-template-columns: repeat(2, 48.5%);
@@ -185,6 +188,9 @@ span{
 @media screen and (max-width: 767px ) {
     .products {
         display: block;
+    }
+    .product-button{
+        top: 242px;
     }
     .galeria{
         height: 978vh;

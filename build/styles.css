@@ -252,7 +252,7 @@ span {
   text-decoration: none;
   width: 100%;
   position: absolute;
-  top: 346px;
+  top: 360px;
 }
 .product-button:hover {
   background-color: #922b02;
@@ -305,6 +305,9 @@ span {
   .galeria {
     height: 500vh;
   }
+  .product-button {
+    top: 240px;
+  }
   .products {
     grid-template-columns: repeat(2, 48.5%);
     column-gap: 3%;
@@ -313,6 +316,9 @@ span {
 @media screen and (max-width: 767px) {
   .products {
     display: block;
+  }
+  .product-button {
+    top: 242px;
   }
   .galeria {
     height: 978vh;
