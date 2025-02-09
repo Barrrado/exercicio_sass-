@@ -303,7 +303,7 @@ span {
     max-width: 80%;
   }
   .galeria {
-    height: 520vh;
+    height: 2808px;
   }
   .product-button {
     top: 346px;
@@ -321,7 +321,7 @@ span {
     top: 346px;
   }
   .galeria {
-    height: 990vh;
+    height: 5300px;
   }
   .product-item {
     margin-bottom: 32px;
@@ -331,7 +331,7 @@ span {
     height: 50vh;
   }
   .top-content {
-    padding-bottom: 40px;
+    padding-bottom: 58px;
   }
   header .container {
     display: flex;
