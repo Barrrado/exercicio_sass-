@@ -327,10 +327,10 @@ span {
     margin-bottom: 32px;
   }
   .rodape{
-        height: 137px;
+        height: 220px;
     
 .rodape h1 {
-  font-size: 15px;
+  font-size: 10px;
   }
   h1 {
     flex-direction: column;
