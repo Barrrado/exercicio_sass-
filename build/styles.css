@@ -326,9 +326,11 @@ span {
   .product-item {
     margin-bottom: 32px;
   }
+  .rodape{
+        height: 137px;
+  }
   h1 {
     flex-direction: column;
-    height: 50vh;
   }
   .top-content {
     padding-bottom: 58px;
