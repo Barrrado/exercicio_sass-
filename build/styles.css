@@ -214,11 +214,7 @@ section {
   border: 1px solid rgba(255, 255, 255, 0.4039215686);
   background-color: rgba(0, 0, 2, 0.3098039216);
   backdrop-filter: blur(50px);
-<<<<<<< HEAD
-  height: 380px;
-=======
   height: 405px;
->>>>>>> 4780b41612ea4e2488fb8df7c17b11acbe9f5cb5
   width: 215px;
   animation: scrolroll linear;
   animation-timeline: view();
@@ -256,7 +252,7 @@ span {
   text-decoration: none;
   width: 100%;
   position: absolute;
-  top: 335px;
+  top: 360px;
 }
 .product-button:hover {
   background-color: #922b02;
@@ -266,7 +262,7 @@ span {
   background-color: rgba(0, 0, 2, 0.3098039216);
   background-image: linear-gradient(to top, rgba(0, 0, 2, 0.3098039216), rgba(59, 11, 11, 0.3960784314));
   padding: 0;
-  height: 339vh;
+  height: 1830px;
   border-radius: 10px;
   backdrop-filter: blur(40px);
 }
@@ -284,11 +280,7 @@ span {
 }
 
 .rodape h1 {
-<<<<<<< HEAD
   font-size: 20px;
-=======
-  font-size: 25px;
->>>>>>> 4780b41612ea4e2488fb8df7c17b11acbe9f5cb5
   margin-top: 10px;
   padding-left: 10px;
   padding-right: 10px;
@@ -314,11 +306,7 @@ span {
     height: 2808px;
   }
   .product-button {
-<<<<<<< HEAD
-    top: 336px;
-=======
-    top: 346px;
->>>>>>> 4780b41612ea4e2488fb8df7c17b11acbe9f5cb5
+    top: 360px;
   }
   .products {
     grid-template-columns: repeat(2, 48.5%);
@@ -330,22 +318,14 @@ span {
     display: block;
   }
   .product-button {
-<<<<<<< HEAD
-    top: 335px;
-  }
-  .galeria {
-    height: 5000px;
-=======
-    top: 346px;
+    top: 360px;
   }
   .galeria {
     height: 5300px;
->>>>>>> 4780b41612ea4e2488fb8df7c17b11acbe9f5cb5
   }
   .product-item {
     margin-bottom: 32px;
   }
-<<<<<<< HEAD
   .rodape {
     height: 220px;
   }
@@ -353,15 +333,6 @@ span {
     font-size: 20px;
   }
   h1 {
-=======
-  .rodape{
-        height: 220px;
-  }  
-.rodape h1 {
-  font-size: 10px;
-  }
- h1 {
->>>>>>> 4780b41612ea4e2488fb8df7c17b11acbe9f5cb5
     flex-direction: column;
   }
   .top-content {
@@ -373,23 +344,13 @@ span {
     align-items: center;
     padding: 10px;
     margin: 0;
-<<<<<<< HEAD
   }
   .programas {
     height: 148px;
   }
   .programas h1 {
     flex-direction: column;
-=======
->>>>>>> 4780b41612ea4e2488fb8df7c17b11acbe9f5cb5
   }
-    .programas{
-          height: 148px;
-    }
-    .programas h1{
-    flex-direction: column;
-    }
-    
 }
 
 /*# sourceMappingURL=styles.css.map */

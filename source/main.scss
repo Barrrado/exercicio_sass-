@@ -121,7 +121,7 @@ span{
     text-decoration: none;
     width: 100%;
     position: absolute;
-    top: 335px;
+    top: 360px;
 
     &:hover {
         background-color: cores.$corbtn;
@@ -131,7 +131,7 @@ span{
     background-color: cores.$corheader;
     background-image:linear-gradient(to top, cores.$corheader, cores.$gradiente);
     padding: 0;
-    height: 339vh;
+    height: 1830px;
     border-radius: 10px;
     backdrop-filter: blur(40px);
 }
@@ -176,7 +176,7 @@ span{
         height: 2808px;
     }
     .product-button{
-        top: 336px;
+        top: 360px;
     }
 
     .products {
@@ -190,10 +190,10 @@ span{
       display: block;
     }
     .product-button {
-      top: 335px;
+      top: 360px;
     }
     .galeria {
-      height: 5000px;
+      height: 5300px;
     }
     .product-item {
       margin-bottom: 32px;
